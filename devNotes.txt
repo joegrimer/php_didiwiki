@@ -1,0 +1,52 @@
+=== Eating my own Dog food - notes made while developing
+
+*the last bug?* - something to do with complex internal links and strikethrough... need to regex it out
+
+/also/ I just tried to save this file, and something odd happened. the problem didn't reocur though
+
+Todo on wikis
+
+* I need to cull excess test pages (like "hello", and "Changes") and wiki#.php files
+* take a copy, archive it
+
+Old bugs in this *PHP* version of didiwiki... eating my own dog-food!
+
+I'm sure there's an odd thing I missed. There really are a lot of regular expressions!
+
+== Obvious Problems:
+
+The code is a tad botched in parts... but I do think the way it deals with <pre>'s is quite clever
+
+== Old Bugs:
+
+The first line of every file behaves lika  *mutant*
+
+-The edit > redirect is also a bit unreliable... I think *maybe* this is /just because/ of some refresh -features- of _php_- *DONE* 
+
+ here is a pre line to split this test
+
+  
+
+
+-I'm *not* sure if doubele *bold* or *triple* bold *works*- *DONE*
+
+-or this <- *DONE*
+
+-I need to fix the pre tag so that it functions on another level, and can let everything else do its own thing- *DONE*
+
+-italic seems to /not be/ be broken- *DONE*
+
+-The last line of most of the documents seems to be cloned. 5 characters are missing off the following line:-
+
+-or randomly preformatted-
+
+=== This was the Last Remaining problem:
+
+| this is a table | or is it? http://google.com | noocolumn3 | noocolumn3 | noocolumn3 | nutter cell
+| this is a table | or is it? http://google.com | noocolumn3 | noocolumn3 | noocolumn3
+| this is a table | or is it? http://google.com | noocolumn3 | noocolumn3 | noocolumn3
+| this is a table | or is it? http://google.com | noocolumn3 | noocolumn3 | noocolumn3
+
+
+
+

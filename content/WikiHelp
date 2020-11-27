@@ -1,0 +1,88 @@
+=Quick Guide 
+Top toolbar usage
+* [?edit Edit] Allows you to edit pages ( see below for rules )
+* [/WikiHome Home] Takes you to the wiki front page
+* [/Changes Changes] Lists the pages changed by date
+* [/Create New] Creates a new wiki page by title
+* [/WikiHelp Help] Takes you to this help page
+
+Use the text entry box to perform a very simple keyword search on the
+Wiki contents. Hit return to activate the search.
+
+Use the WikiSandbox to practice formatting.
+
+----
+=Formatting rules
+
+=Top Level Heading
+  =Top Level Heading (H1)
+==Second Level Heading
+  ==Second Level Heading (H2)
+More levels 
+  === (H3), ==== (H4) etc
+----
+The horizontal lines in this page are made with 4 or more dashes:
+ ---- Horizonal line
+----
+
+Paragraphs are separated by an empty line
+
+Like this. Another paragraph.
+
+ Paragraphs are separated by a blank line.
+
+ Like this. Another paragraph.
+----
+*Bold text*, /italic text/, _underscore text_ and -strikethrough-.
+  *Bold text*, /italic text/, _underscore text_ and -strikethrough-.
+/*Combination of bold and italics*/
+  /*Combination of bold and italics*/
+----
+
+WikiLinks are formed by two or more words in /camelcase/.
+ WikiLinks are formed by two or more words in /camelcase/.
+External links begin with http://, like http://www.freepan.org
+ External links begin with http://, like http://www.freepan.org
+Forced wiki [links] are a alphanumeric string surrounded by square brackets.
+ Forced wiki [links] are a alphanumeric string surrounded by square brackets.
+Named http links have text with an !http:// link inside, like [http://www.freepan.org FreePAN]
+ Named http links have text with an !http:// link inside, like [http://www.freepan.org FreePAN]
+Sometimes !WordsShouldNotMakeAWikiLink so put a '! ' beforehand.
+ Sometimes !WordsShouldNotMakeAWikiLink so put a '! ' beforehand.
+Same thing with !http://foobar.com
+ Same thing with !http://foobar.com
+----
+
+Links to images display the image:
+
+http://www.google.com/images/logo.gif
+ http://www.google.com/images/logo.gif
+----
+Unordered lists begin with a '* '. The number of asterisks determines the level:
+* foo
+* bar
+** boom
+** bam
+* baz
+
+  * foo
+  * bar
+  ** boom
+  ** bam
+  * baz
+
+Ordered lists work the same, but use a '#'
+----
+Tables begin the line with a '|' and before every new column after.
+
+| row:1,col:1 | row:1,col:2
+| row:2,col:1 | row:2,col:2
+ | row:1,col:1 | row:1,col:2
+ | row:2,col:1 | row:2,col:2
+----
+<Inline> <html> <is> <escaped>.
+
+----
+Lines prefixed with a space are unformatted ( Like examples on this page )
+
+----

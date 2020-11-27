@@ -1,0 +1,7 @@
+==Welcome to PHP !DidiWiki
+
+This is a reimplementation of the Original DidiWiki as found in the linux package (didiwiki) and, perhaps more commonly, on Puppy Linux
+
+This wiki uses a very light wiki syntax, and may slip up sometimes when rendering it, but don't worry, because the parser never edits what you actually write, it only converts it into readable html!
+
+Have fun, and of course feel free to delete this text, and rapidly develop your own wiki from this base!
